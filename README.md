@@ -7,14 +7,14 @@ working docker is a requirement. A sample app is included to test the installati
 
 On Linux:
 ---------
-It should just work.
+You need working X server. I have not tested this application with any sort of virtual X server but that should work as well.
 
 
 On MacOS:
 ---------
-Install XQuartz
+Install XQuartz.
 
 
 Runner Scripts:
 ---------------
-Scripts to run the image on various OS's can be found at https://github.com/rajsahae/fxruby-docker
+Scripts to run the image on various OS's can be found at https://github.com/rajsahae/fxruby-docker.
