@@ -17,4 +17,5 @@ Install XQuartz.
 
 Runner Scripts:
 ---------------
-Scripts to run the image on various OS's can be found at https://github.com/rajsahae/fxruby-docker.
+Scripts to run the image on various OS's can be found at https://github.com/rajsahae/fxruby-docker. Call the run scripts directly or
+via the Makefile with `make run`.
