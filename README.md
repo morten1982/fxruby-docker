@@ -7,7 +7,7 @@ working docker is a requirement. A sample app is included to test the installati
 
 On Linux:
 ---------
-You need working X server. I have not tested this application with any sort of virtual X server but that should work as well.
+You need working X server. I tested both with real X server and virtual X server (TurboVNC).
 
 
 On MacOS:
