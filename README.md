@@ -13,3 +13,8 @@ It should just work.
 On MacOS:
 ---------
 Install XQuartz
+
+
+Runner Scripts:
+---------------
+Scripts to run the image on various OS's can be found at https://github.com/rajsahae/fxruby-docker
