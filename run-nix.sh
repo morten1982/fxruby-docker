@@ -9,8 +9,10 @@ docker run \
   --rm \
   -v "$XSOCK:$XSOCK" \
   -v "$XAUTH:$XAUTH" \
+  -v "$PWD:$PWD" \
+  --workdir "$PWD" \
   -e "XAUTHORITY=$XAUTH" \
   -e DISPLAY \
-  rajsahae/fxruby:latest
+  rajsahae/fxruby:latest "$@"
 
 rm -f "$XAUTH"
