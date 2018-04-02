@@ -13,6 +13,7 @@ docker run \
   --workdir "$PWD" \
   -e "XAUTHORITY=$XAUTH" \
   -e DISPLAY \
+  $DOCKER_RUN_ARGS \
   rajsahae/fxruby:latest "$@"
 
 rm -f "$XAUTH"

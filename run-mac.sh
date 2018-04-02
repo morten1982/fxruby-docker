@@ -17,4 +17,5 @@ docker run \
   -v "$PWD:$PWD" \
   --workdir "$PWD" \
   -e "DISPLAY=${IP}${XDISPLAY}" \
+  $DOCKER_RUN_ARGS \
   rajsahae/fxruby:latest "$@"
